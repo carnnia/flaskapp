@@ -1,0 +1,23 @@
+$ virtualenv venv --distribute
+$ source venv/bin/activate
+
+
+--------------------
+
+
+$ touch .gitignore
+put this inside it:
+venv
+*.pyc
+
+
+
+and then 
+
+$ git init
+$ git add .
+$ git commit -m "first commit"
+
+
+
+
